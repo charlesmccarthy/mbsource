@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.canvas-cursor {
+  opacity: 0.9;
+  border-radius: 50%;
+  background-color: rgb(218, 236, 239);
+  border: 1px solid rgb(194, 194, 194);
+  position: absolute;
+  transition: transform 0.1s ease-out;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
