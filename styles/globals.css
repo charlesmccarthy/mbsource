@@ -5,7 +5,6 @@
 /* change bg to 9, 9, 49 */
 body {
   background-color: rgb(9, 9, 49);
-  color: #fff;
 }
 .canvas-cursor {
   opacity: 0.9;
