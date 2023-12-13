@@ -12,9 +12,8 @@ export default function Home() {
       <Head>
         <title>FullJourney.AI Motion Brush</title>
       </Head>
-
-      <div className="text-2xl w-full text-center py-3 font-semibold text-slate-800">
-        FullJourney.AI Motion Brush
+      <div className="text-2xl w-full text-center py-3 font-semibold text-white">
+      FullJourney.AI Motion Brush
       </div>
       <InputForm />
     </div>
