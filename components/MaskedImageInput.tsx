@@ -171,19 +171,19 @@ const MaskedImageInput = () => {
 
             <div className="flex">
               <button
-                className="p-1 bg-sky-100 m-1 text-sm rounded"
+                className="p-1 bg-sky-100 m-1 text-sm rounded text-black"
                 onClick={() => inpaintingRef.current?.undo()}
               >
                 Undo
               </button>
               <button
-                className="p-1 bg-sky-100 m-1 text-sm rounded"
+                className="p-1 bg-sky-100 m-1 text-sm rounded text-black"
                 onClick={() => inpaintingRef.current?.redo()}
               >
                 Redo
               </button>
               <button
-                className="p-1 bg-sky-100 m-1 text-sm rounded"
+                className="p-1 bg-sky-100 m-1 text-sm rounded text-black"
                 onClick={() => inpaintingRef.current?.clearCanvas()}
               >
                 Clear
