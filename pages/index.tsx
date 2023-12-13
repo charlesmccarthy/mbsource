@@ -10,11 +10,11 @@ export default function Home() {
       className={`flex min-h-screen flex-col px-4 lg:px-24 items-center ${inter.className}`}
     >
       <Head>
-        <title>Motion Brush</title>
+        <title>FullJourney.AI Motion Brush</title>
       </Head>
 
       <div className="text-2xl w-full text-center py-3 font-semibold text-slate-800">
-        Motion Brush
+        FullJourney.AI Motion Brush
       </div>
       <InputForm />
     </div>
