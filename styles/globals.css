@@ -5,7 +5,7 @@
 .canvas-cursor {
   opacity: 0.9;
   border-radius: 50%;
-  background-color: rgb(218, 236, 239);
+  background-color: rgb(9, 9, 49); 
   border: 1px solid rgb(194, 194, 194);
   position: absolute;
   transition: transform 0.1s ease-out;
