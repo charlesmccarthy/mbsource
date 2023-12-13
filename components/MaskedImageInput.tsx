@@ -153,22 +153,22 @@ const MaskedImageInput = () => {
             />
           </div>
           <span className="hidden zinc-100 bg-slate-600" />
-          <div id="action-btns" className="flex flex-col items-center gap-3">
-            <div>
-              Paint over the parts of the image that you want to animate
-            </div>
-            <div className="flex items-center flex-1 p-1">
-              <div className="pl-1 pr-3 text-sm">Brush Width</div>
-              <input
-                type="range"
-                min="3"
-                max="100"
-                value={inpaintWidth}
-                onChange={(e) => setInpaintWidth(parseInt(e.target.value))}
-              ></input>
-              <div className="pr-3 pl-1 text-sm w-3">{inpaintWidth}px</div>
-            </div>
-
+          <div id="action-btns" className="flex flex-col items-center gap-3 text-white">
+          <div>
+            Paint over the parts of the image that you want to animate
+          </div>
+          <div className="flex items-center flex-1 p-1">
+            <div className="pl-1 pr-3 text-sm">Brush Width</div>
+            <input
+              type="range"
+              min="3"
+              max="100"
+              value={inpaintWidth}
+              onChange={(e) => setInpaintWidth(parseInt(e.target.value))}
+            ></input>
+            <div className="pr-3 pl-1 text-sm w-3">{inpaintWidth}px</div>
+          </div>
+        </div>
             <div className="flex">
               <button
                 className="p-1 bg-sky-100 m-1 text-sm rounded"
